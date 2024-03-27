@@ -1,0 +1,30 @@
+.image1{
+    animation : sec1 0.7s ease-in-out 0.5s forwards;
+}
+.image2{
+    animation : sec1 0.7s ease-in-out 1.2s forwards;
+}
+.image3{
+    animation : sec1 0.7s linear 1.7s forwards;
+}
+
+.image4{
+    animation : sec1 0.7s linear 2.2s forwards; 
+}
+
+.image5{
+    animation : sec1 0.7s linear 2.7s forwards;
+}
+.image6{
+    animation : sec1 0.7s linear 0.5s forwards;
+}
+
+
+
+@keyframes sec1
+{
+    to{
+        position: relative;
+        top : 0px;
+    }
+}
